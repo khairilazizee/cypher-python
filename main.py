@@ -43,7 +43,7 @@ while cont:
     # Try running the program and entering a shift number of 45.
     # Add some code so that the program continues to work even if the user enters a shift number greater than 26.
     # Hint: Think about how you can use the modulus (%).
-
+    # any number will be modulus with 26 to get the reminder.
     shift = shift % 26
 
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
